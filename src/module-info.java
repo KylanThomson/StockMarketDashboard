@@ -1,4 +1,4 @@
-module bullin {
+module Bullin {
 
     requires javafx.graphics;
     requires javafx.fxml;
