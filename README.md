@@ -2,7 +2,7 @@
 ## Developer: Kylan Thomson
 This project is still under development. 
 
-The goal of this project is to allow the user to create watchlists based on screening parameters. The screening parameters are designed to identify stocks with historically high gains, low volitility, and no signs of slowing down. 
+This project allows the user to create watchlists based on screening parameters. The screening parameters are designed to identify stocks with historically high gains, low volitility, and no signs of slowing down. 
 
 ### Current Features Inlude:
 - Account registration
