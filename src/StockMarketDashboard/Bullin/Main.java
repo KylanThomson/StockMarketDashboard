@@ -1,5 +1,4 @@
-package Bullin;
-
+package StockMarketDashboard.Bullin;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
