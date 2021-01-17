@@ -17,7 +17,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="768.0" prefWidth="936.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Bullin.DashboardController">
+<AnchorPane prefHeight="768.0" prefWidth="936.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="StockMarketDashboard.Bullin.DashboardController">
    <children>
       <AnchorPane layoutX="999.0" layoutY="82.0" prefHeight="661.0" prefWidth="25.0" style="-fx-background-color: #009d96;" />
       <AnchorPane prefHeight="82.0" prefWidth="1024.0" style="-fx-background-color: #3abbb6;">
