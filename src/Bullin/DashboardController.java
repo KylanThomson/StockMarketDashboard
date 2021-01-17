@@ -23,6 +23,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.Date;
 
+
 public class DashboardController{
     @FXML
     private LineChart stockChart;
