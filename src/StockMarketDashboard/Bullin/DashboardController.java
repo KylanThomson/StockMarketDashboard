@@ -1,4 +1,4 @@
-package Bullin;
+package StockMarketDashboard.Bullin;
 
 
 import javafx.application.Platform;
@@ -62,7 +62,7 @@ public class DashboardController{
 
     public void initDash(){
         try {
-            Parent root = FXMLLoader.load(getClass().getResource("Dashboard.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("src/StockMarketDashboard/Bullin/Dashboard.fxml"));
             Stage dashboardStage = new Stage();
             dashboardStage.initStyle(StageStyle.UNDECORATED);
             dashboardStage.setScene(new Scene(root, 1024, 768));

@@ -1,4 +1,4 @@
-package Bullin;
+package StockMarketDashboard.Bullin;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

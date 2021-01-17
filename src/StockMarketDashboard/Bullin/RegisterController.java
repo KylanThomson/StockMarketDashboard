@@ -1,4 +1,4 @@
-package Bullin;
+package StockMarketDashboard.Bullin;
 
 import javafx.application.Platform;
 import javafx.event.ActionEvent;

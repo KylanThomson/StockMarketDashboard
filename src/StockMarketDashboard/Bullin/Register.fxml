@@ -21,7 +21,7 @@
          </children></AnchorPane>
       <ImageView fx:id="shieldImageView" fitHeight="42.0" fitWidth="69.0" layoutX="32.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../images/shield.jpg" />
+            <Image url="@../../../images/shield.jpg" />
          </image>
       </ImageView>
       <Label layoutX="92.0" layoutY="117.0" text="Firstname">

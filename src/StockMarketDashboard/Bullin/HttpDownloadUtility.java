@@ -1,4 +1,4 @@
-package Bullin;
+package StockMarketDashboard.Bullin;
 
 
 import java.io.File;

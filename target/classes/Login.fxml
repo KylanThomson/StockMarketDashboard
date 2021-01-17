@@ -11,7 +11,7 @@
          <children>
             <ImageView fx:id="brandingImageView" fitHeight="400.0" fitWidth="246.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../images/Bullin.jpg" />
+                  <Image url="@../../../images/Bullin.jpg" />
                </image>
             </ImageView>
          </children>
@@ -22,7 +22,7 @@
          <children>
             <ImageView fx:id="lockImageView" fitHeight="39.0" fitWidth="43.0" layoutX="129.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../images/lock.jpg" />
+                  <Image url="@../../../images/lock.jpg" />
                </image>
             </ImageView>
             <TextField fx:id="usernameTextField" alignment="CENTER" layoutX="74.0" layoutY="145.0" promptText="USERNAME" />

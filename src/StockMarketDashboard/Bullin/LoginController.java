@@ -1,4 +1,4 @@
-package Bullin;
+package StockMarketDashboard.Bullin;
 
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
@@ -112,7 +112,7 @@ public class LoginController implements Initializable {
     public void createAccountForm() {
 
         try {
-            Parent root = FXMLLoader.load(getClass().getResource("Register.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("src/StockMarketDashboard/Bullin/Register.fxml"));
             Stage registerStage = new Stage();
             registerStage.initStyle(StageStyle.UNDECORATED);
             registerStage.setScene(new Scene(root, 520, 529));
@@ -129,7 +129,7 @@ public class LoginController implements Initializable {
 
     public void initLogin(){
         try{
-            Parent root = FXMLLoader.load(getClass().getResource("Login.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("src/StockMarketDashboard/Bullin/Login.fxml"));
             Stage registerStage = new Stage();
             registerStage.initStyle(StageStyle.UNDECORATED);
             registerStage.setScene(new Scene(root, 520, 400));
