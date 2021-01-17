@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="StockMarketDashboard.Bullin.LoginController">
+   <left>
+      <AnchorPane prefHeight="407.0" prefWidth="228.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fx:id="brandingImageView" fitHeight="400.0" fitWidth="246.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/Bullin.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+   <center>
+      <AnchorPane prefHeight="400.0" prefWidth="309.0" style="-fx-background-color: #FFFFFF;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fx:id="lockImageView" fitHeight="39.0" fitWidth="43.0" layoutX="129.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/lock.jpg" />
+               </image>
+            </ImageView>
+            <TextField fx:id="usernameTextField" alignment="CENTER" layoutX="74.0" layoutY="145.0" promptText="USERNAME" />
+            <PasswordField fx:id="enterPasswordField" alignment="CENTER" layoutX="74.0" layoutY="181.0" promptText="PASSWORD" />
+            <Button layoutX="64.0" layoutY="256.0" mnemonicParsing="false" onAction="#loginButtonOnAction" prefHeight="17.0" prefWidth="170.0" style="-fx-background-color: #3abbb6;" text="LOGIN" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="createAccountButton" layoutX="64.0" layoutY="297.0" mnemonicParsing="false" onAction="#createAccountButtonOnAction" prefHeight="17.0" prefWidth="170.0" style="-fx-background-color: #3abbb6;" text="CREATE ACCOUNT" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <Label fx:id="loginMessageLabel" alignment="CENTER" layoutX="45.0" layoutY="214.0" prefHeight="17.0" prefWidth="209.0" text="" textFill="RED" />
+            <Button fx:id="cancelButton" layoutX="109.0" layoutY="357.0" mnemonicParsing="false" onAction="#cancelButtonOnAction" prefHeight="29.0" prefWidth="74.0" style="-fx-background-color: #3abbb6;" text="CANCEL" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

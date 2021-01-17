@@ -1,0 +1,24 @@
+.chart-plot-background {
+    -fx-background-color: #3c3c3c;
+}
+.chart-vertical-grid-lines {
+    -fx-stroke: #3abbb6;
+}
+.chart-horizontal-grid-lines {
+    -fx-stroke: transparent;
+}
+.chart-alternative-row-fill {
+    -fx-fill:  #3c3c3c;
+    -fx-stroke: transparent;
+    -fx-stroke-width: 0;
+}
+.axis {
+    -fx-tick-label-fill: transparent;
+    -fx-tick-fill: transparent;
+}
+.axis-tick-mark {
+    -fx-stroke: transparent;
+}
+.axis-minor-tick-mark {
+    -fx-stroke: transparent;
+}
