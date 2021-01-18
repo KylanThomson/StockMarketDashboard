@@ -112,7 +112,7 @@ public class LoginController implements Initializable {
     public void createAccountForm() {
 
         try {
-            Parent root = FXMLLoader.load(getClass().getResource("src/StockMarketDashboard/Bullin/Register.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("Register.fxml"));
             Stage registerStage = new Stage();
             registerStage.initStyle(StageStyle.UNDECORATED);
             registerStage.setScene(new Scene(root, 520, 529));
