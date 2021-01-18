@@ -15,6 +15,7 @@ public class Main extends Application {
         primaryStage.initStyle(StageStyle.UNDECORATED);
         primaryStage.setScene(new Scene(root, 520, 400));
         primaryStage.show();
+        DashboardUtility.getVector(1, "AAPL");
     }
 
 
